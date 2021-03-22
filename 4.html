@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>BOOK WORLD | Ethics</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+<script > 
+function date_time(id)
+{
+        date = new Date;
+        year = date.getFullYear();
+        month = date.getMonth();
+        months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+        d = date.getDate();
+        day = date.getDay();
+        days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+        h = date.getHours();
+        if(h<10)
+        {
+                h = "0"+h;
+        }
+        m = date.getMinutes();
+        if(m<10)
+        {
+                m = "0"+m;
+        }
+        s = date.getSeconds();
+        if(s<10)
+        {
+                s = "0"+s;
+        }
+        result = ''+days[day]+' '+months[month]+' '+d+' '+year+' '+h+':'+m+':'+s;
+        document.getElementById(id).innerHTML = result;
+        setTimeout('date_time("'+id+'");','1000');
+        return true;
+}
+</script>
+</head>  
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+  .fakeimg {
+    height: 500px;
+    background: #00a12d;
+  }
+  div {
+  text-align: justify;
+  text-justify: inter-word;
+</style>
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>WELCOME IN BOOK WORLD </h1>
+  <p>"A ROOM WITHOUT BOOKS IS LIKE A BODY WITHOUT A SOUL."</p> 
+</div>
+
+<div class="container" style="margin-top:40px">
+  <div class="row">
+    <div class="col-sm-4">
+      
+      <h5><a href="index.html"><i class="fa fa-fw fa-home"></i>&nbsp;GO TO HOME</a></h5> <h1>Philosopy</h1>
+<i><h3>Table of Contents</h3></i>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="1.html">Metaphysics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="2.html">Epistemology</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="3.html">Logics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="4.html">Ethics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="5.html">Aesthetics</a>
+        </li>
+      </ul>
+
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      
+      
+
+
+<h1>Ethics</h1><span id="date_time"></span>
+            <script type="text/javascript">window.onload = date_time('date_time');</script><hr>
+
+<cite><p>Ethics (or Moral) is the part of Philosophy that studies the nature of Right and Wrong.
+</p></cite></hr>
+<p>Ethics seeks to define concepts such as:.</p>
+<ul>
+<li>Good and Evil</li>
+<li>Right and Wrong</li>
+<li>Justice and Crime</li>
+</ul>
+<hr><h2>
+What is Ethics?</h2>
+<p></hr>
+<hr>What are true values?
+</p>
+</hr>
+<hr><h1>What is Moral?</h1></hr>
+<p>What moral principles govern a person's behaviour or activities?</p>
+<hr><h1>
+Meta Ethics</hr></h1>
+<p>
+Where do ethical principles come from?</p>
+<ul>
+<li>What do ethical principles mean?</li>
+<li>Are ethical principles social inventions?</li>
+<li>Are ethical principles created from emotions?</li>
+
+
+</ul>
+
+
+<hr><h1>Normative Ethics</h1></hr>
+<hr><h6>Normative Ethics involves the study of common moral standards.</h6></hr>
+<p>Always do to others what others to do to you.</p>
+<ul>
+<li>Our Duties</li>
+<li>Our behaviour</li>
+<li>Good and Bad</li>
+<li>Habbits</li>
+</ul>
+
+<hr>
+<h1>
+Applied Ethics
+</h1>
+</hr><br>
+<p>Applied Ethics involves the study of controversial issues:</p>
+<ul>
+
+<li>Abortion</li>
+<li>Devorce</li>
+<li>Punishment<li>
+<li>Animal Rights</li>
+
+</ul>
+</div>
+<br>
+
+</div>
+</div>
+<br><br>
+<p><footer class="bg-light text-center text-lg-start"><div class="text-center p-3" style="background-color: rgb(0, 128, 0);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;">
+   Copyright &#169; 2021 BY BOOK WORLD. All Rights Reserved. 
+  <BR>
+ <CITE> DESIGN BY : RAM PRATAP SINGH </CITE></div></footer>
+</p>
+
+
+</body>
+</html>
